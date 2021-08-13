@@ -58,7 +58,7 @@ body {
 }
 }
 
-/* ####################################### VIDEO-2 ####################################### */
+/* ####################################### VIDEO-2(3) ####################################### */
 
 .video-greybg {
   height: 522px;
@@ -70,9 +70,13 @@ body {
   display: flex;
   border: 1px solid #000;
 }
-.video-greybg__youtube {
+.video-greybg__youtube-left, .video-greybg__youtube-right {
   width: 525px;
   border: 1px solid #d53b3b;
+}
+.video-greybg__youtube-right {
+  margin: auto;
+  margin-left: 0;
 }
 .video-greybg__youtube-inner {
   position: relative;
@@ -87,23 +91,16 @@ body {
     height: 100%;
   }
 }
-.video-greybg__text {
+.video-greybg__text-left, .video-greybg__text-right {
   max-width: 424px;
   margin: auto;
-  margin-left: 75px;
-  border: 1px solid #3a6995;
-}
-/* ####################################### VIDEO-3 ####################################### */
-.video-greybg__youtube-right {
-  margin: auto;
-  margin-left: 0;
 }
 .video-greybg__text-left {
-  margin: auto;
-  margin-left: 0;
-  margin-right: 176px;
+  margin: auto 176px auto 0;
 }
-/* ####################################### VIDEO-3 end ####################################### */
+.video-greybg__text-right {
+  margin-left: 75px;
+}
 .video-greybg__title-1, .video-greybg__title-2 {
   font-family: Montserrat, sans-serif;
   line-height: 140%;
@@ -137,7 +134,7 @@ body {
   margin-left: 6px;
 }
 
-/* ------------------------------ ADAPTIVE for video-2 ------------------------------ */
+/* ------------------------------ ADAPTIVE for video-2(3) ------------------------------ */
 
 @media (max-width: 1280px) {
 .wrapper {
@@ -165,23 +162,23 @@ body {
   padding: 26px 0;
 }
 .video-greybg__inner {
-  // display: block;
   flex-direction: column;
   max-width: 90%;
   margin: 0 auto;
 }
-.video-greybg__youtube {
+.video-greybg__youtube-left, .video-greybg__youtube-right {
   width: 100%;
   margin-bottom: 26px;
 }
-.video-greybg__text {
+.video-greybg__text-left, .video-greybg__text-right {
   max-width: 100%;
-  margin-left: 0;
   text-align: center;
 }
 .video-greybg__text-left {
-  max-width: 100%;
   margin-right: 0;
+}
+.video-greybg__text-right {
+  margin-left: 0;
 }
 .video-greybg__inner > .video-greybg__text-left {
   order: 2;
