@@ -3,12 +3,10 @@ body {
 
 .wrapper {
   max-width: 1170px;
-  margin: 0 auto;
-  border: 1px solid #000; }
+  margin: 0 auto; }
 
 .video-main {
   text-align: center;
-  border: 1px solid #000;
   margin: auto;
   padding-bottom: 10vh; }
 
@@ -39,67 +37,18 @@ body {
   max-width: 534px;
   margin: 0 auto; }
 
-/* ####################################### VIDEO-9 ####################################### */
-.bg-lightgrey {
-  background: #F6F6F6; }
-
-.bg-lightgrey .video {
-  height: 494px; }
-
-.bg-lightgrey .video__youtube-left, .bg-lightgrey .video__youtube-right {
-  width: 519px;
-  border: 1px solid #d53b3b;
-  margin: auto;
-  margin-left: 0;
-  margin: auto 0 auto 0; }
-
-.bg-lightgrey .video__text-left, .bg-lightgrey .video__text-right {
-  max-width: 466px;
-  margin: auto;
-  margin-left: 81px; }
-
-.bg-lightgrey .video__title-1 {
-  font-weight: 300;
-  font-size: 34px;
-  color: #363636;
-  margin-bottom: 38px; }
-
-.bg-lightgrey .video__title-2 {
-  font-size: 16px;
-  color: #A7A7A7;
-  margin-bottom: 0; }
-
-/* ####################################### VIDEO-9 end ####################################### */
-@media (max-width: 767px) {
-  .video-main img, .video-main svg {
-    margin-bottom: 31px; }
-
-  .video-main__title-1 {
-    font-size: 35px;
-    margin-bottom: 19px; }
-
-  .video-main__title-2 {
-    font-size: 40px;
-    margin-bottom: 19px; }
-
-  .video-main__title-3 {
-    font-size: 13px;
-    max-width: 321px; } }
 /* ####################################### VIDEO-2+ ####################################### */
 .video {
   height: 522px;
-  display: flex;
-  border: 1px solid #2fb33c; }
+  display: flex; }
 
 .video__inner {
   width: 100%;
   margin: auto;
-  display: flex;
-  border: 1px solid #792525; }
+  display: flex; }
 
 .video__youtube-left, .video__youtube-right {
-  width: 525px;
-  border: 1px solid #d53b3b; }
+  width: 525px; }
 
 .video__youtube-right {
   margin: auto;
@@ -159,8 +108,116 @@ body {
 .video__button svg {
   margin-left: 6px; }
 
-/* ------------------------------ ADAPTIVE for video-2+ ------------------------------ */
+/* ####################################### VIDEO-4,5 ####################################### */
+.bg-white {
+  background: #fff; }
+
+.bg-white .video__title-1 {
+  color: #292929; }
+
+.bg-white .video__title-2 {
+  color: #C2C2C2; }
+
+.bg-white .video__button {
+  background: #262626;
+  color: #fff; }
+
+/* ####################################### VIDEO-6 ####################################### */
+.bg-black {
+  background: #000000; }
+
+.bg-black .video {
+  height: 432px; }
+
+.bg-black .video__youtube-left, .bg-black .video__youtube-right {
+  width: 360px; }
+
+.bg-black .video__youtube-right {
+  margin: auto;
+  margin-right: 0; }
+
+.bg-black .video__text-left, .bg-black .video__text-right {
+  max-width: 570px; }
+
+.bg-black .video__title-1 {
+  font-size: 26px; }
+
+.bg-black .video__title-2 {
+  font-size: 14px; }
+
+/* ####################################### VIDEO-7,8 ####################################### */
+.video-center {
+  display: block;
+  height: auto;
+  padding-top: 94px;
+  margin: 0 auto; }
+
+.video__text-center {
+  text-align: center; }
+
+.video__text-center .video__title-1 {
+  font-weight: 600;
+  font-size: 34px;
+  margin-bottom: 29px; }
+
+.video__text-center .video__title-2 {
+  font-size: 14px;
+  color: #CDCDCD;
+  max-width: 488px;
+  margin: 0 auto;
+  margin-bottom: 62px; }
+
+.bg-white .video__text-center .video__title-2 {
+  color: #6B6B6B; }
+
+.video__youtube-center {
+  width: 715px;
+  margin-bottom: 62px; }
+
+.video-center .button-center {
+  font-weight: 500;
+  font-size: 12px;
+  background: #3966E6;
+  color: #fff;
+  border-radius: 37px;
+  width: 187px;
+  height: 41px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 62px; }
+
+/* ####################################### VIDEO-9 ####################################### */
+.bg-lightgrey {
+  background: #F6F6F6; }
+
+.bg-lightgrey .video {
+  height: 494px; }
+
+.bg-lightgrey .video__youtube-left, .bg-lightgrey .video__youtube-right {
+  width: 519px;
+  margin: auto;
+  margin-left: 0;
+  margin: auto 0 auto 0; }
+
+.bg-lightgrey .video__text-left, .bg-lightgrey .video__text-right {
+  max-width: 466px;
+  margin: auto;
+  margin-left: 81px; }
+
+.bg-lightgrey .video__title-1 {
+  font-weight: 300;
+  font-size: 34px;
+  color: #363636;
+  margin-bottom: 38px; }
+
+.bg-lightgrey .video__title-2 {
+  font-size: 16px;
+  color: #A7A7A7;
+  margin-bottom: 0; }
+
+/* ####################################### VIDEO-9 end ####################################### */
 @media (max-width: 1280px) {
+  /* ------------------------------ 1280 ADAPTIVE for video-2+ ------------------------------ */
   .wrapper {
     max-width: 960px; }
 
@@ -175,10 +232,21 @@ body {
     margin-bottom: 15px; }
 
   .video__title-2 {
-    margin-bottom: 30px; } }
+    margin-bottom: 30px; }
+
+  /* ------------------------------ 1280 ADAPTIVE for video-9 ------------------------------ */
+  .bg-lightgrey .video__text-left, .bg-lightgrey .video__text-right {
+    margin-left: 40px; }
+
+  .bg-lightgrey .video__title-1 {
+    font-size: 26px;
+    margin-bottom: 18px; }
+
+  .bg-lightgrey .video__title-2 {
+    font-size: 14px; } }
 @media (max-width: 980px) {
+  /* ------------------------------ 980 ADAPTIVE for video-2+ ------------------------------ */
   .video {
-    border: 1px solid #670983;
     height: auto;
     padding: 26px 0; }
 
@@ -221,84 +289,15 @@ body {
     font-size: 1.8vw; }
 
   .video__button svg {
-    display: none; } }
-@media (max-width: 720px) {
-  .video__button {
-    height: 44px; } }
-@media (max-width: 600px) {
-  .video__title-2 {
-    font-size: 14px; } }
-@media (max-width: 520px) {
-  .video__button {
-    height: 34px;
-    width: 35vw;
-    font-size: 11px; } }
-@media (max-width: 420px) {
-  .video {
-    padding: 12px 0; }
+    display: none; }
 
-  .video__inner {
-    max-width: 94%; }
-
-  .video__title-1 {
-    font-size: 26px;
-    margin-bottom: 25px; }
-
-  .video__title-2 {
-    font-size: 13px;
-    margin-bottom: 27px; }
-
-  .video__button {
-    font-size: 11px;
-    width: 164px;
-    height: 31px; } }
-/* ####################################### VIDEO-4,5 ####################################### */
-.bg-white {
-  background: #fff; }
-
-.bg-white .video__title-1 {
-  color: #292929; }
-
-.bg-white .video__title-2 {
-  color: #C2C2C2; }
-
-.bg-white .video__button {
-  background: #262626;
-  color: #fff; }
-
-/* ####################################### VIDEO-6 ####################################### */
-.bg-black {
-  background: #000000; }
-
-.bg-black .video {
-  height: 432px; }
-
-.bg-black .video__youtube-left, .bg-black .video__youtube-right {
-  width: 360px;
-  border: 1px solid #d53b3b; }
-
-.bg-black .video__youtube-right {
-  margin: auto;
-  margin-right: 0; }
-
-.bg-black .video__text-left, .bg-black .video__text-right {
-  max-width: 570px; }
-
-.bg-black .video__title-1 {
-  font-size: 26px; }
-
-.bg-black .video__title-2 {
-  font-size: 14px; }
-
-/* ------------------------------ ADAPTIVE for video-6 ------------------------------ */
-@media (max-width: 980px) {
+  /* ------------------------------ 980 ADAPTIVE for video-6 ------------------------------ */
   .bg-black .video {
     height: auto; }
 
   .bg-black .video__youtube-left, .bg-black .video__youtube-right {
     width: 100%;
-    margin-bottom: 26px;
-    border: 1px solid #d53b3b; }
+    margin-bottom: 26px; }
 
   .bg-black .video__text-left, .bg-black .video__text-right {
     max-width: 100%; }
@@ -307,95 +306,16 @@ body {
     font-size: 5vw; }
 
   .bg-black .video__title-2 {
-    font-size: 2.4vw; } }
-@media (max-width: 420px) {
-  .bg-black .video__title-1 {
-    font-size: 26px;
-    margin-bottom: 28px; }
+    font-size: 2.4vw; }
 
-  .bg-black .video__title-2 {
-    font-size: 13px; } }
-/* ####################################### VIDEO-7,8 ####################################### */
-.video-center {
-  display: block;
-  height: auto;
-  padding-top: 94px;
-  border: 1px solid #2fb33c;
-  margin: 0 auto; }
-
-.video__text-center {
-  text-align: center; }
-
-.video__text-center .video__title-1 {
-  font-weight: 600;
-  font-size: 34px;
-  margin-bottom: 29px; }
-
-.video__text-center .video__title-2 {
-  font-size: 14px;
-  color: #CDCDCD;
-  max-width: 488px;
-  margin: 0 auto;
-  margin-bottom: 62px; }
-
-.bg-white .video__text-center .video__title-2 {
-  color: #6B6B6B; }
-
-.video__youtube-center {
-  width: 715px;
-  margin-bottom: 62px; }
-
-.video-center .button-center {
-  font-weight: 500;
-  font-size: 12px;
-  background: #3966E6;
-  color: #fff;
-  border-radius: 37px;
-  width: 187px;
-  height: 41px;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 62px; }
-
-/* ------------------------------ ADAPTIVE for video-7,8 ------------------------------ */
-@media (max-width: 980px) {
+  /* ------------------------------ 980 ADAPTIVE for video-7,8 ------------------------------ */
   .video-center {
     max-width: 90%; }
 
   .video__youtube-center {
-    width: 100%; } }
-@media (max-width: 420px) {
-  .video-center {
-    padding-top: 71px; }
+    width: 100%; }
 
-  .video__text-center .video__title-1 {
-    font-size: 26px;
-    margin-bottom: 26px; }
-
-  .video__text-center .video__title-2 {
-    font-size: 13px;
-    max-width: 100%;
-    margin-bottom: 22px; }
-
-  .video__youtube-center {
-    margin-bottom: 32px; }
-
-  .video-center .button-center {
-    margin-bottom: 22px; } }
-/* ####################################### VIDEO-9 ####################################### */
-/* ####################################### VIDEO-9 end ####################################### */
-/* ------------------------------ ADAPTIVE for video-9 ------------------------------ */
-@media (max-width: 1280px) {
-  .bg-lightgrey .video__text-left, .bg-lightgrey .video__text-right {
-    margin-left: 40px; }
-
-  .bg-lightgrey .video__title-1 {
-    font-size: 26px;
-    margin-bottom: 18px; }
-
-  .bg-lightgrey .video__title-2 {
-    font-size: 14px; } }
-@media (max-width: 980px) {
+  /* ------------------------------ 980 ADAPTIVE for video-9 ------------------------------ */
   .bg-lightgrey .video {
     height: auto; }
 
@@ -413,7 +333,82 @@ body {
 
   .bg-lightgrey .video__title-2 {
     font-size: 2.8vw; } }
+@media (max-width: 767px) {
+  /* ------------------------------ 767 ADAPTIVE for video-1 ------------------------------ */
+  .video-main img, .video-main svg {
+    margin-bottom: 31px; }
+
+  .video-main__title-1 {
+    font-size: 35px;
+    margin-bottom: 19px; }
+
+  .video-main__title-2 {
+    font-size: 40px;
+    margin-bottom: 19px; }
+
+  .video-main__title-3 {
+    font-size: 13px;
+    max-width: 321px; } }
+@media (max-width: 720px) {
+  .video__button {
+    height: 44px; } }
+@media (max-width: 600px) {
+  .video__title-2 {
+    font-size: 14px; } }
+@media (max-width: 520px) {
+  .video__button {
+    height: 34px;
+    width: 35vw;
+    font-size: 11px; } }
 @media (max-width: 420px) {
+  /* ------------------------------ 420 ADAPTIVE for video-2+ ------------------------------ */
+  .video {
+    padding: 12px 0; }
+
+  .video__inner {
+    max-width: 94%; }
+
+  .video__title-1 {
+    font-size: 26px;
+    margin-bottom: 25px; }
+
+  .video__title-2 {
+    font-size: 13px;
+    margin-bottom: 27px; }
+
+  .video__button {
+    font-size: 11px;
+    width: 164px;
+    height: 31px; }
+
+  /* ------------------------------ 420 ADAPTIVE for video-6 ------------------------------ */
+  .bg-black .video__title-1 {
+    font-size: 26px;
+    margin-bottom: 28px; }
+
+  .bg-black .video__title-2 {
+    font-size: 13px; }
+
+  /* ------------------------------ 420 ADAPTIVE for video-7,8 ------------------------------ */
+  .video-center {
+    padding-top: 71px; }
+
+  .video__text-center .video__title-1 {
+    font-size: 26px;
+    margin-bottom: 26px; }
+
+  .video__text-center .video__title-2 {
+    font-size: 13px;
+    max-width: 100%;
+    margin-bottom: 22px; }
+
+  .video__youtube-center {
+    margin-bottom: 32px; }
+
+  .video-center .button-center {
+    margin-bottom: 22px; }
+
+  /* ------------------------------ 420 ADAPTIVE for video-9 ------------------------------ */
   .bg-lightgrey .video__youtube-left, .bg-lightgrey .video__youtube-right {
     margin-bottom: 12px;
     padding: 0; }
@@ -424,3 +419,8 @@ body {
 
   .bg-lightgrey .video__title-2 {
     font-size: 13px; } }
+/* ------------------------------ ADAPTIVE for video-1 ------------------------------ */
+/* ------------------------------ ADAPTIVE for video-2+ ------------------------------ */
+/* ------------------------------ ADAPTIVE for video-6 ------------------------------ */
+/* ------------------------------ ADAPTIVE for video-7,8 ------------------------------ */
+/* ------------------------------ ADAPTIVE for video-9 ------------------------------ */

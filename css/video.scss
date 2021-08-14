@@ -323,6 +323,7 @@ body {
   /* ------------------------------ 980 ADAPTIVE for video-7,8 ------------------------------ */
   .video-center {
     max-width: 90%;
+    padding-top: 80px;
   }
   .video__youtube-center {
     width: 100%;
@@ -444,50 +445,4 @@ body {
   .bg-lightgrey .video__title-2 {
     font-size: 13px;
   }
-}
-/* ------------------------------ ADAPTIVE for video-1 ------------------------------ */
-@media (max-width: 767px) {
-
-}
-/* ------------------------------ ADAPTIVE for video-2+ ------------------------------ */
-
-@media (max-width: 1280px) {
-
-}
-
-@media (max-width: 980px) {
-
-}
-
-@media (max-width: 420px) {
-
-}
-
-
-/* ------------------------------ ADAPTIVE for video-6 ------------------------------ */
-@media (max-width: 980px) {
-
-}
-@media (max-width: 420px) {
-
-}
-
-/* ------------------------------ ADAPTIVE for video-7,8 ------------------------------ */
-@media (max-width: 980px) {
-
-}
-@media (max-width: 420px) {
-
-}
-
-/* ------------------------------ ADAPTIVE for video-9 ------------------------------ */
-
-@media (max-width: 1280px) {
-
-}
-@media (max-width: 980px) {
-
-}
-@media (max-width: 420px) {
-
 }
