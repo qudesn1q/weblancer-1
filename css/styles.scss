@@ -323,10 +323,13 @@ body {
 }
 .video__text-center .video__title-2 {
   font-size: 14px;
-  color: #6B6B6B;
+  color: #CDCDCD;
   max-width: 488px;
   margin: 0 auto;
   margin-bottom: 62px;
+}
+.bg-white .video__text-center .video__title-2 {
+  color: #6B6B6B;
 }
 .video__youtube-center {
   width: 715px;
@@ -337,6 +340,7 @@ body {
   font-weight: 500;
   font-size: 12px;
   background: #3966E6;
+  color: #fff;
   border-radius: 37px;
   width: 187px;
   height: 41px;
